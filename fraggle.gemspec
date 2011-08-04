@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "fraggle/version"
 
 Gem::Specification.new do |s|
-  s.name        = "fraggle"
+  s.name        = "fraggle-spanx"
   s.version     = Fraggle::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Blake Mizerany"]
@@ -24,4 +24,5 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "turn"
   s.add_development_dependency "statsample"
+  s.add_development_dependency "rake"
 end
