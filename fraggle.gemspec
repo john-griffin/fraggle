@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency "beefcake", "~>0.3"
+  s.add_dependency "beefcake-spanx"
   s.add_dependency "eventmachine"
 
   s.add_development_dependency "turn"
